@@ -61,6 +61,15 @@ header a{
     border: brown 3px solid;
 }
 
+#btn{
+    background-color: green;
+    border-radius: 20%;
+    margin-top: 10px;
+    font-size: 20px;
+    padding: 5px;
+    color: aliceblue;
+}
+
 @media only screen and (max-width: 600px){
     body{
         background-color: blueviolet;
