@@ -54,6 +54,13 @@ header a{
    
 }
 
+.register{
+   
+    width: 200px;
+    height: auto;
+    border: brown 3px solid;
+}
+
 @media only screen and (max-width: 600px){
     body{
         background-color: blueviolet;
@@ -101,8 +108,8 @@ header a{
         float: left;
     }
     .register{
-        float: right;
-        padding-top: 300px;
+        float: left;
+        padding: 20px;
     }
 } 
 
@@ -117,6 +124,7 @@ header a{
 
     .register{
         float: left;
-        padding-top: 300px;
+        padding: 20px;
+        margin-top: 250px;
     }
 }
