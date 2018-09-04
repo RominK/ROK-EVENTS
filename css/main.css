@@ -1,0 +1,139 @@
+.container{
+    width: 90%;
+    margin: auto;
+    height: auto;
+    overflow: hidden;
+}
+
+header{
+    background: rgb(42, 147, 165);
+    
+    
+    border-bottom:brown 3px solid;
+    min-height: 80px;
+}
+
+#event-name{
+    float: left;
+    color: aliceblue;
+}
+
+#icon{
+    color:brown;
+}
+
+body{
+    background-color: aliceblue;
+}
+
+#event{
+    text-align: center;
+}
+
+header li{
+    float: left;
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+
+header nav{
+    padding-top: 20px;
+}
+
+header a{
+    text-decoration: none;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: aliceblue;
+
+}
+
+.image{
+    margin-bottom: 20px;
+   
+   
+}
+
+.register{
+   
+    width: 200px;
+    height: auto;
+    border: brown 3px solid;
+}
+
+#btn{
+    background-color: green;
+    border-radius: 20%;
+    margin-top: 10px;
+    font-size: 20px;
+    padding: 5px;
+    color: aliceblue;
+}
+
+@media only screen and (max-width: 600px){
+    body{
+        background-color: blueviolet;
+    }
+
+    header li{
+        display: block;
+    }
+
+
+    header{
+        min-height: 200px;
+    }
+
+
+
+}
+
+@media only screen and (min-width: 768px) {
+    body{
+        background-color: burlywood;
+    }
+
+    header{
+        min-height: 150px;
+    }
+
+    header li{
+        display: block;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    body{
+        background-color: aquamarine;
+    }
+
+
+
+    header{
+        min-height: 120px;
+    }
+
+    .image{
+        float: left;
+    }
+    .register{
+        float: left;
+        padding: 20px;
+    }
+} 
+
+@media only screen and (min-width: 1200px){
+    body{
+        background-color: azure;
+    }
+
+    .image{
+        float: left;
+    }
+
+    .register{
+        float: left;
+        padding: 20px;
+        margin-top: 250px;
+    }
+}
